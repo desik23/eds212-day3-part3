@@ -1,0 +1,38 @@
+---
+title: "Part2-Coding Practice"
+author: "Desik Somasundaram"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+# Create  vectors
+
+vec_a <- c(1,6)
+
+vec_b <- c(2,4)
+
+```
+
+
+```{r}
+# Check Hand Calculations
+
+vec_a + vec_b
+
+vec_b - vec_a
+
+4 * vec_a 
+
+vec_a %*% vec_b
+
+
+```
+
+
